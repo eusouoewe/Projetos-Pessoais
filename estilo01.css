@@ -43,8 +43,11 @@ input {
         margin-bottom: 10px;
 }
 
+input::placeholder {
+        font-family: Open sans;
+}
+
 button {
-        font-family: 'Varela Round';
         text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
         font-size: 1em;
         width: 100%;
@@ -53,10 +56,10 @@ button {
         border-color: rgba(0, 0, 0, 0.568);
         border-radius: 5px;
         padding: 10px;
+        transition-duration: 0.6s;
 }
 
 button:hover {
         cursor: pointer;
         background-color: #203156;
-        transition-duration: 0.6s;
 }
